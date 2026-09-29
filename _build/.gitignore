@@ -1,0 +1,8 @@
+# Built and copied files
+
+release/
+debug/
+
+LICENSE*
+License*
+license*
