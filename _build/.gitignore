@@ -3,6 +3,9 @@
 release/
 debug/
 
+src/
+include/
+
 LICENSE*
 License*
 license*

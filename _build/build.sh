@@ -72,8 +72,8 @@ kalamake ${BUILD_RELEASE} && kalamake ${BUILD_DEBUG}
 # Cleanup
 #
 
+# Only delete src but keep include because its needed by the libraries
 rm -rf "${SRC_TARGET}"
-rm -rf "${INCLUDE_TARGET}"
 
 rm -rf "release/obj"
 rm -rf "debug/obj"
